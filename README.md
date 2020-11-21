@@ -72,17 +72,17 @@ setLeadThroughOff, isLeadThroughOn, loadProgramIntoTask and
 loadModuleIntoTask exist in the file rws_interface.cpp of the library
 abb_librws. If this is the case, execute the following commands:
 ```bash
-cd /catkin_ws/src
+cd ~/catkin_ws/src
 git clone https://github.com/ros-industrial/abb_librws
 ```
 Otherwise, execute them: (fork github)
 ```bash
-cd /catkin_ws/src
+cd ~/catkin_ws/src
 git clone https://github.com/dorianleveque/abb_librws
 ```
 After either option, execute the following commands:
 ```bash
-cd /catkin_ws
+cd ~/catkin_ws
 catkin_make
 ```
 If no errors occur, the installation of the abb_librws library is successful.
